@@ -1,0 +1,54 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: url(../korie-cull-IzIME1jwjCY-unsplash.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    padding: 200px;
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#full{
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    background-color: white;
+}
+.p1{
+    margin: 10px;
+    width: 250px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.p2{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.p3{
+    margin-left: 20px;
+}
+.login{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -30px;
+}

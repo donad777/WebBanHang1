@@ -1,0 +1,338 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Banner */
+.banner1 img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Product Section */
+.text1 {
+    font-size: 23px;
+    background-color: rgba(128, 128, 128, 0.077);
+    text-align: center;
+    padding: 10px;
+}
+
+.bigcontainer,
+.bag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itema {
+  
+    flex-basis: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.giay,
+.giay1,
+.giay2,
+.giay3 {
+    text-align: center;
+    display: inline-block;
+}
+
+#image-giay {
+    width: 217px;
+}
+
+.giay img,
+.tui img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.tui,
+.tui1,
+.tui2,
+.tui3 {
+    text-align: center;
+    display: inline-block;
+}
+
+.text {
+    text-align: center;
+}
+
+.p6 {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.p6 b {
+    font-size: 30px;
+}
+
+/* Feedback Section */
+.feedback {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .header .menu {
+        flex-direction: column;
+    }
+
+    .itema {
+        flex-basis: 48%;
+    }
+}
+
+.fb2 {
+    padding: 0px 40px 0px 40px;
+}
+
+.fb1,
+.fb2,
+.fb3 {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(92, 161, 231);
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.fb11 {
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+.post {
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-item {
+    width: calc(100%/3 - 20px);
+    margin-left: 20px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.289);
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s linear;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.post-item:hover {
+    transform: scale(1.02);
+}
+
+.post-image {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+}
+
+.post-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.4s linear;
+}
+
+.post-image:hover img {
+    transform: scale(1.09);
+}
+
+.post-content {
+    padding: 15px;
+    text-align: justify;
+    flex-grow: 1;
+    /*chiem full noi dung chua item*/
+    display: flex;
+    flex-direction: column;
+}
+
+.post-title,
+.post-description {
+    margin-bottom: 15px;
+}
+
+.post-author {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.author-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.295);
+}
+
+.infor-author {
+    margin-left: 15px;
+}
+
+.infor-author p:first-child {
+    font-weight: bold;
+}
+
+.post-time {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 990px) {
+    .post-item {
+        width: calc(100%/2 - 20px);
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .post-item {
+        width: calc(100% - 20px);
+        flex-wrap: wrap;
+    }
+}
+.fb11 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+}
+.btn-toggle-menu{
+    cursor: pointer;
+    display: none;
+}
+#toggle-menu{
+    display: none;
+}
+.container11{
+    max-width: 100%;
+    margin: auto;
+    padding: 0px 15px;
+    box-shadow: 20px grey;
+    margin-bottom: 20px;
+
+}
+nav{
+    background-color: snow;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+.menu{
+    list-style-type: none; /* bo ki tu dau danh sach*/
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+/* .menu li.active a{
+    color: #fff;
+    background-color: black;
+} */
+.menu li a:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0);    
+} 
+@media screen and (max-width: 768px) {
+    nav{
+        flex-wrap: wrap;
+    }
+    .menu{
+        display: none;
+    }
+    .btn-toggle-menu{
+        display: unset; /* font ansome*/
+    }
+    #toggle-menu:checked +.menu{
+        display: block;
+        width: 100%;
+    }
+}
+

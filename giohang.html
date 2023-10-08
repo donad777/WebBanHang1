@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>giohang</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/giohang.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <header>
+    <!-- place navbar here -->
+    <div class="container11">
+      <nav>
+        <a href="trangchu.html"><img src="imgs/ryx-removebg.png" alt="" height="70px"></a>
+        <label for="toggle-menu" class="btn-toggle-menu">
+          <i class="far fa-bars"></i>
+        </label>
+        <input type="checkbox" id="toggle-menu">
+        <ul class="menu">
+          <li class=""><a href="login.html">Thông tin cá nhân</a></li>
+          <li class="active"><a href="#">Giỏ hàng</a></li>
+          <li class=""><a href="#">Liên hệ</a></li>
+          <li class=""><a href="#">Theo dõi đơn hàng</a></li>
+          <li class=""><a href="#">Quà tặng</a></li>
+          <li class=""><a href="tintuc.html">Tin tức</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="h-100 h-custom" style="background-color: rgba(128, 128, 128, 0.604)">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12">
+            <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+              <div class="card-body p-0">
+                <div class="row g-0">
+                  <div class="col-lg-8">
+                    <div class="p-5">
+                      <div class="d-flex justify-content-between align-items-center mb-5">
+                        <h1 class="fw-bold mb-0 text-black">Giỏ hàng</h1>
+                        <h6 class="mb-0 text-muted">3 Sản phẩm</h6>
+                      </div>
+                      <hr class="my-4">
+
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="imgsGiay/usama-akram-s-gYAbQToXk-unsplash.jpg"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="text-muted">Shoes</h6>
+                          <h6 class="text-black mb-0">Nike Kyrie 7 TB</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm" />
+
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">7.000.000 VND</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="imgsGiay/giorgio-trovato-LV_4qM5Gf9c-unsplash.jpg"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="text-muted">Shoes</h6>
+                          <h6 class="text-black mb-0">Nike Dunk High</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm" />
+
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">10.000.000 VND</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="bag/diana-light-nvQemFKRBUo-unsplash.jpg"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="text-muted">Handbag</h6>
+                          <h6 class="text-black mb-0">Vicluxy VT055</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm" />
+
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">1.900.000 <br>VND</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="pt-5">
+                        <h6 class="mb-0"><a href="trangchu.html" class="text-body"><i
+                              class="fas fa-long-arrow-alt-left me-2"></i>Về trang chủ</a></h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 bg-grey">
+                    <div class="p-5">
+                      <h3 class="fw-bold mb-5 mt-2 pt-1">Hóa đơn</h3>
+                      <hr class="my-4">
+
+                      <div class="d-flex justify-content-between mb-4">
+                        <h5 class="text-uppercase">3 Sản phẩm</h5>
+                        <h5>18.900.000 VND</h5>
+                      </div>
+
+                      <h5 class="text-uppercase mb-3">Giao hàng</h5>
+
+                      <div class="mb-4 pb-2">
+                        <select class="select">
+                          <option value="1">Giao hàng - 25.000 VND</option>
+                          <option value="2">Giao Nhanh - 50.000 VND</option>
+                          <option value="3">Giao hàng tiết kiệm - 15.000 VND</option>
+                        </select>
+                      </div>
+
+                      <h5 class="text-uppercase mb-3">Mã giảm giá</h5>
+
+                      <div class="mb-5">
+                        <div class="form-outline">
+                          <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Examplea2">Nhập mã giảm giá</label>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="d-flex justify-content-between mb-5">
+                        <h5 class="text-uppercase">Tổng tiền :</h5>
+                        <h5>18.925.000 VND</h5>
+                      </div>
+
+                      <a href="login.html"><button type="button" class="btn btn-dark btn-block btn-lg"
+                        data-mdb-ripple-color="dark">Mua</button></a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <div class="footer">
+    <footer>
+      <div class="end">
+        <p class="p10"><b>Về RYX</b></p>
+        <br>
+        <p class="p11">
+          Thông tin <br><br>
+          Danh sách cửa hàng
+        </p>
+        <p class="p13">English | Tiếng Việt</p>
+      </div>
+      <div class="help">
+        <p class="p14"><b>Trợ giúp</b></p>
+        <br>
+        <p class="p15">
+          FAQ <br><br>
+          Chính sách trả hàng <br> <br>
+          Chính sách bảo mật <br> <br>
+          Tiếp cận</p>
+      </div>
+      <div class="account">
+        <p class="p16"><b>Tài khoản</b></p>
+        <br>
+        <p class="p17">
+          Tư cách thành viên <br><br>
+          Hồ sơ <br> <br>
+          Coupons <br><br>
+        </p>
+      </div>
+      <div class="infor">
+        <p class="p18"><b>Bản tin điện tử</b></p>
+        <br>
+        <p class="p19">
+          Đăng ký ngay và là người đầu tiên <br> nắm được thông tin khi có mặt hàng <br>mới, khuyến mãi, các
+          sự kiện <br> sắp diễn ra tại cửa hàng và nhiều <br>thông tin hữu ích khác.
+        </p>
+      </div>
+      <div class="inter">
+        <p class="p20"><b>Tài khoản xã hội</b></p>
+        <br>
+        <p class="p21">
+          Facebook <br> <br>
+          Instagram <br><br>
+          Youtube <br><br>
+        </p>
+
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

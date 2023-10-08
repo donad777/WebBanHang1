@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.btn-toggle-menu{
+    cursor: pointer;
+    display: none;
+}
+#toggle-menu{
+    display: none;
+}
+.container11{
+    max-width: 100%;
+    margin: auto;
+    padding: 0px 15px;
+    box-shadow: 20px grey;
+    margin-bottom: 20px;
+    
+}
+nav{
+    background-color: snow;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+.menu{
+    list-style-type: none; /* bo ki tu dau danh sach*/
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+/* .menu li.active a{
+    color: #fff;
+    background-color: black;
+} */
+.menu li a:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0);    
+} 
+@media screen and (max-width: 768px) {
+    nav{
+        flex-wrap: wrap;
+    }
+    .menu{
+        display: none;
+    }
+    .btn-toggle-menu{
+        display: unset; /* font ansome*/
+    }
+    #toggle-menu:checked +.menu{
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Footer Section */
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+.col-lg-4{
+    background-color: rgba(128, 128, 128, 0.167);
+    border-radius: 15px;
+}

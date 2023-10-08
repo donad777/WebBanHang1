@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../imgs/erica-zhou-IHpUgFDn7zU-unsplash.jpg) center no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    display: flex;
+}
+p{
+    padding: 20px;
+    font-size: 17px;
+}
+.container{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+.btn {
+    padding: 15px 70px 15px 70px;
+    border-radius: 25px;
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(232, 227, 227);
+}
+.content::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+h1{
+    font-size: 40px;
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+.image{
+    padding-left: 20px;
+    
+}
+
